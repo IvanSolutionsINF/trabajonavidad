@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.pad{
+    background-color: beige;
+    display: grid;
+    grid-template-areas: "titulo titulo titulo titulo titulo titulo"
+                         "menu menu    menu    menu   menu  menu"
+                         "logo contenido contenido contenido  contenido enlaces"
+                         "logo contenido contenido contenido  contenido enlaces"
+                         "logo contenido contenido contenido  contenido enlaces"
+                         "footer footer footer footer footer footer ";
+
+}
+.titu{
+    background-color: beige;
+    grid-area: titulo;
+    font-size:xx-large;
+    display: flex;
+    position: static;
+    justify-content: center;
+    background-color: rgb(15, 15, 15);
+    color: white;
+    padding-top: 10px;
+}
+.men{
+    background-color: beige;
+    grid-area: menu;
+    font-size:xx-large;
+    display: flex;
+    position: static;
+    justify-content: center;
+    color: rgb(12, 0, 0);
+    padding-top: 10px;
+}
+.cont{
+    background-color: beige;
+    grid-area: contenido;
+}
+.enla{
+    background-color: beige;
+    grid-area: enlaces;
+    font-size:20px;
+    padding-top: 10px;
+}
+.log{
+    background-color: beige;
+    grid-area: logo;
+}
+.foot{
+    background-color: beige;
+    grid-area: footer;
+    font-size:xx-large;
+    display: flex;
+    position: static;
+    justify-content: center;
+    background-color: rgb(15, 15, 15);
+    color: white;
+    padding-top: 10px;
+}
